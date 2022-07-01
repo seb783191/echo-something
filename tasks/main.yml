@@ -1,0 +1,6 @@
+---
+# tasks file for echo-something
+#
+- name: Echo something
+  debug:
+    msg: {{ message }}
